@@ -15,6 +15,13 @@ Optimize transition state structure down imaginary frequency in the style of IRC
    ```
    make sure to select the chmodded file. This alias can be customized such as `alias fastirc='/path/to/firc_script'`
 <br /><br />
+## How to Use
+Simple as sourcing the script with transition state log file that have frequency calculated. If the script cannot find imaginary frequency it will exit. 
+```
+firc ts-log-with-freq.log
+```
+This will generate a directory named `firc_inp` which contain the inp file of the opt job, for you to run it in the fashion of your server.
+<br /><br />
 ## Input File Specification (Opt Job)
 Within `firc_optinp.txt` will be input file specification on how your input file would look like. The format is the same as normal Gaussian input file. Additional job such as `freq` may be added, extra parameters like solvation or EmpiricalDispersion could be added as desired, output format could be modified. <br />
 DO NOT MODIFY THE NUMBER OF LINES, the script reads from line 2 to 10 of that file

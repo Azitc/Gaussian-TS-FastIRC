@@ -1,0 +1,12 @@
+### Begin inp file specification ###
+%chk file will automatically be named firc_forward/firc_reverse.chk
+%NProc="nproc"
+%mem="mem"
+
+#p PBEPBE/def2SVP opt gfinput pop=full
+
+	Title
+
+0 1
+
+### End inp file specification DO NOT MODIFY LINE NUMBERING ###

@@ -14,6 +14,7 @@ Optimize transition state structure down imaginary frequency in the style of IRC
    alias firc='/path/to/firc_script'
    ```
    make sure to select the chmodded file. This alias can be customized such as `alias fastirc='/path/to/firc_script'`
+<br /> Or alternatively, you can just write the alias to source the .sh file, its the same thing
 <br /><br />
 ## How to Use
 Simple as sourcing the script with transition state log file that have frequency calculated. If the script cannot find imaginary frequency it will exit. 
